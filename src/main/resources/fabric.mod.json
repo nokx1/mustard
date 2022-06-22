@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mustardutil",
+  "version": "${version}",
+
+  "name": "Mustard",
+  "description": "unique description",
+  "authors": [
+    "nokx"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nokx.main.Mustard"
+    ]
+  },
+  "mixins": [
+    "mustardutil.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
