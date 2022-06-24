@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "L": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "B": {
+      "item": "minecraft:stone_button"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " T ",
+    "BLB",
+    "III"
+  ],
+  "result": {
+    "item": "mustardutil:remote"
+  }
+}

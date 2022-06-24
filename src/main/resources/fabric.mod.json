@@ -3,13 +3,13 @@
   "id": "mustardutil",
   "version": "${version}",
 
-  "name": "Mustard",
+  "name": "MustardUtil",
   "description": "unique description",
   "authors": [
     "nokx"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://github.com/nokx1/mustard",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
@@ -19,7 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.nokx.main.Mustard"
+      "net.nokx.mustardutil.MustardUtil"
+    ],
+    "client": [
+      "net.nokx.mustardutil.MustardUtilClient"
     ]
   },
   "mixins": [

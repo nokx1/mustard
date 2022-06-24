@@ -1,0 +1,10 @@
+{
+  "item.mustardutil.bomb": "Bomb",
+  "item.mustardutil.lighter": "Lighter",
+  "item.mustardutil.donut": "Donut",
+  "item.mustardutil.chocolate_bar": "Chocolate_Bar",
+  "item.mustardutil.pineapple": "Pineapple",
+  "item.mustardutil.remote": "Remote",
+
+  "itemGroup.mustardutil.mustardutil": "MustardUtil"
+}

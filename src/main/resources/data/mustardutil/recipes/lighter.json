@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "pattern": [
+    "IFI",
+    "III"
+  ],
+  "result": {
+    "item": "mustardutil:lighter"
+  }
+}
